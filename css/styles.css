@@ -8,6 +8,7 @@ html {
 img {
   display: block;
   max-width: 100%;
+  align-items: center;
 }
 
 a {
@@ -23,23 +24,22 @@ nav ul {
 }
 
 body {
-  margin-inline: 2.4688rem;
-  margin-block: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   font-family: "Roboto", sans-serif;
   background-color: #f6f8fc;
-  text-align: center;
+
 }
-@media screen and (width>768px) { 
-body {
-  background-color: violet;
-}
-}
+
 
 .Title {
   margin: 0;
   font-weight: 600;
   font-size: 2rem;
 }
+
 
 .Subtitle {
   font-weight: 400;
@@ -55,15 +55,72 @@ body {
   font-size: 0.875rem;
 }
 
+.container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  @media screen and (width>768px) { 
+    .container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    }
+  
 .card {
-  position: relative;
-  width: 268px;
-  margin-bottom: 2rem;
-  padding: 2rem;
+  width: 16.75rem;
   border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
   background-color: #ffffff;
+  align-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
   box-shadow: 0.25rem 0.25rem 0.5rem 0 rgb(0 0 0 / 0.1);
-  margin-inline: auto;
+}
+
+.card-pink {
+  background-color: #ffffff;
+}
+
+@media (hover: hover){
+  .card-pink:hover{
+    background-color: violet;
+  }
+}
+
+.card-blue {
+  background-color: #ffffff;
+}
+
+@media (hover: hover){
+  .card-blue:hover{
+    background-color: #5082ed;
+  }
+}
+
+.card-orange {
+  background-color: #ffffff;
+}
+
+@media (hover: hover){
+  .card-orange:hover{
+    background-color: rgb(237, 137, 93);
+  }
+}
+
+.card-green {
+  background-color: #ffffff;
+}
+
+@media (hover: hover){
+  .card-green:hover{
+    background-color: rgb(142, 201, 162);
+  }
 }
 
 .icon-container {
