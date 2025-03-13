@@ -23,6 +23,65 @@ nav ul {
 }
 
 body {
+  margin-inline: 2.4688rem;
+  margin-block: 3rem;
+  font-family: "Roboto", sans-serif;
+  background-color: #f6f8fc;
+  text-align: center;
+}
+
+.Title {
   margin: 0;
-  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.Subtitle {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.title-card {
+  font-weight: 600;
+  font-size: 1rem;
+}
+.subtitle-card {
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.card {
+  position: relative;
+  width: 268px;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  box-shadow: 0.25rem 0.25rem 0.5rem 0 rgb(0 0 0 / 0.1);
+  margin-inline: auto;
+}
+
+.icon-container {
+  width: 5.625rem;
+  height: 5.625rem;
+  border-radius: 100%;
+  background-color: #f7ddff;
+  margin-inline: auto;
+}
+
+.icon-blue {
+  background-color: #dde8ff;
+}
+
+.icon-red {
+  background-color: #ffddde;
+}
+
+.icon-green {
+  background-color: #dfffdd;
+}
+
+.icon {
+  display: block;
+  padding: 1.5938rem;
 }
