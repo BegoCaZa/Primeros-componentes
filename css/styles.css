@@ -29,6 +29,11 @@ body {
   background-color: #f6f8fc;
   text-align: center;
 }
+@media screen and (width>768px) { 
+body {
+  background-color: violet;
+}
+}
 
 .Title {
   margin: 0;
