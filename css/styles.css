@@ -30,16 +30,13 @@ body {
   text-align: center;
   font-family: "Roboto", sans-serif;
   background-color: #f6f8fc;
-
 }
-
 
 .Title {
   margin: 0;
   font-weight: 600;
   font-size: 2rem;
 }
-
 
 .Subtitle {
   font-weight: 400;
@@ -56,20 +53,20 @@ body {
 }
 
 .container {
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+@media screen and (width>768px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
-  @media screen and (width>768px) { 
-    .container {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-    }
-    }
-  
+}
+
 .card {
   width: 16.75rem;
   border-radius: 0.5rem;
@@ -87,8 +84,8 @@ body {
   background-color: #ffffff;
 }
 
-@media (hover: hover){
-  .card-pink:hover{
+@media (hover: hover) {
+  .card-pink:hover {
     background-color: violet;
   }
 }
@@ -97,8 +94,8 @@ body {
   background-color: #ffffff;
 }
 
-@media (hover: hover){
-  .card-blue:hover{
+@media (hover: hover) {
+  .card-blue:hover {
     background-color: #5082ed;
   }
 }
@@ -107,8 +104,8 @@ body {
   background-color: #ffffff;
 }
 
-@media (hover: hover){
-  .card-orange:hover{
+@media (hover: hover) {
+  .card-orange:hover {
     background-color: rgb(237, 137, 93);
   }
 }
@@ -117,8 +114,8 @@ body {
   background-color: #ffffff;
 }
 
-@media (hover: hover){
-  .card-green:hover{
+@media (hover: hover) {
+  .card-green:hover {
     background-color: rgb(142, 201, 162);
   }
 }
